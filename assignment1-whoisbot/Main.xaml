@@ -1,0 +1,157 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="850.4,1332" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="545.6,1267.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="website" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="483.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter the website you want to search" Title="Website Finder">
+      <ui:InputDialog.Result>
+        <OutArgument x:TypeArguments="x:String">[website]</OutArgument>
+      </ui:InputDialog.Result>
+    </ui:InputDialog>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Free Whois Lookup - Whois IP Search &amp; Whois Domain Lookup | Whois.com" sap:VirtualizedContainerService.HintSize="483.2,748" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="d797f842-1679-425a-b0c9-324d17cd8a56" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,531.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="d797f842-1679-425a-b0c9-324d17cd8a56" Text="website" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.whois.com/whois/" DesignTimeRectangle="339, 460, 1054, 80" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'INPUT'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;input' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl type='text' tag='INPUT' class='form-control' aaname='' /&gt;" Guid="3aebca2c-089e-4166-9696-fd18f672b756" InformativeScreenshot="f9f141f38b30e38fb9e8d5dce0dfd541.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Free Whois Lookup - Whois IP Search &amp;amp; Whois Domain Lookup | Whois.com' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="246, 247, 1425, 338" ElementType="InputBox" FriendlyName="'Whois Domain'" FullSelectorArgument="&lt;webctrl class='container-xl' css-selector='body&amp;gt;main&amp;gt;div&amp;gt;div' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='container-xl' type='' tag='DIV' aaname='                                  ' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'SEARCH'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d797f842-1679-425a-b0c9-324d17cd8a56" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.whois.com/whois/" DesignTimeRectangle="1447, 482, 101, 34" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'SEARCH'" FullSelectorArgument="&lt;webctrl aaname='SEARCH' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='SEARCH' tag='SPAN' type='' class='' check:innerText='SEARCH' /&gt;" Guid="6ffeda0c-0e5f-4611-b727-39ced9112f3e" InformativeScreenshot="3cb691af0d607256f6ca6d46d2ac1193.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Free Whois Lookup - Whois IP Search &amp;amp; Whois Domain Lookup | Whois.com' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target DesignTimeRectangle="1391, 460, 188, 80" ElementType="Button" FriendlyName="'SEARCH'" FullSelectorArgument="&lt;webctrl aaname='SEARCH' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='SEARCH' tag='BUTTON' type='submit' class='btn btn-vendor' check:innerText='SEARCH' /&gt;" SearchSteps="FuzzySelector" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1098" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="17f9c98dc2693b234e2d774a2da22dd6.jpg" Selector="&lt;html app='chrome.exe' title='Free Whois Lookup - Whois IP Search &amp;amp; Whois Domain Lookup | Whois.com' /&gt;" Title="Free Whois Lookup - Whois IP Search &amp; Whois Domain Lookup | Whois.com" Url="https://www.whois.com/whois/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="483.2,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[website]" />
+  </Sequence>
+</Activity>
